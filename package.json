@@ -2,14 +2,15 @@
   "name": "JATE",
   "version": "1.0.0",
   "description": "A text editor that runs in the browser",
-  "main": "server/server.js",
+  "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
     "start": "npm run build && cd server && node server.js",
     "server": "cd server && nodemon server.js --ignore client",
     "build": "cd client && npm run build",
     "install": "cd server && npm i && cd ../client && npm i",
-    "client": "cd client && npm start"
+    "client": "cd client && npm start",
+    "render-build": "npm install && npm run build"
   },
   "keywords": [],
   "author": "Keri Sen",
