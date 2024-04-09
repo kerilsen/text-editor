@@ -33,6 +33,7 @@ module.exports = () => {
             description: 'A JavaScript text editor that works in your browser',
             background_color: '#225ca3',
             theme_color: '#225ca3',
+            display: 'standalone',
             start_url: './',
             publicPath: './',
             icons: [
