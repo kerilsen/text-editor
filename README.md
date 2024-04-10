@@ -26,8 +26,8 @@
 
   Enter your JavaScript code into the text editor and it will highlight your syntax.
 
-  ![Landing page with logo]('./images/screenshot.png)
-  ![Highlighted syntax]('./images/screenshot2.png)
+  ![Landing page with logo]('./images/screenshot.png')
+  ![Highlighted syntax]('./images/screenshot2.png')
 
   ## Contributing
 
